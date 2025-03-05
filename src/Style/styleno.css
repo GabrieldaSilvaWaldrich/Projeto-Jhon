@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Medo";
+    src: url(../fontes/Ghastly\ Panic.ttf);
+}
+
+body {
+    background-image: url(../images/b1c7396823e0642025206d1c462052e2.jpg);
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Medo";
+    color: white;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: "Medo";
+    font-size: 60px;
+    margin: 20px 10px 10px 10px;
+    color: white;
+}
+
+
+img {
+    border-radius: 75px;
+    margin-top: 20px;
+}
+
+
+main {
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 {
+    width: 35%;
+    height: 600px;
+    background-color:crimson;
+    border-radius: 25px 25px 25px 25px;
+    padding: 10px;
+}
